@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0C3C6920E60E7F00D4051E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C3C6720E60E7F00D4051E /* PlayViewController.m */; };
+		0D0C3C6A20E60E7F00D4051E /* PlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0C3C6820E60E7F00D4051E /* PlayViewController.xib */; };
+		0D0C3C6D20E60E9C00D4051E /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C3C6C20E60E9C00D4051E /* PlayButton.m */; };
+		0D0C3C7820E9E82E00D4051E /* StringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C3C7520E9E82C00D4051E /* StringLayer.m */; };
+		0D0C3C7920E9E82E00D4051E /* StringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C3C7720E9E82C00D4051E /* StringView.m */; };
+		0D0C3C7D20E9E84A00D4051E /* StringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0C3C7B20E9E84A00D4051E /* StringViewController.m */; };
+		0D0C3C7E20E9E84A00D4051E /* StringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0C3C7C20E9E84A00D4051E /* StringViewController.xib */; };
 		0D8C3A8C201873AC002F8851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3A8B201873AC002F8851 /* AppDelegate.m */; };
 		0D8C3A8F201873AC002F8851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3A8E201873AC002F8851 /* ViewController.m */; };
 		0D8C3A92201873AC002F8851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8C3A90201873AC002F8851 /* Main.storyboard */; };
@@ -15,6 +22,8 @@
 		0D8C3A9A201873AC002F8851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3A99201873AC002F8851 /* main.m */; };
 		0D8C3AA4201873AC002F8851 /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3AA3201873AC002F8851 /* CoreAnimationTests.m */; };
 		0D8C3AAF201873AC002F8851 /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3AAE201873AC002F8851 /* CoreAnimationUITests.m */; };
+		0D8C3ABE201873D0002F8851 /* MaskLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3ABD201873D0002F8851 /* MaskLayerViewController.m */; };
+		0D8C3AC120187EC8002F8851 /* ColorsLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C3AC020187EC8002F8851 /* ColorsLoadingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0C3C6620E60E7F00D4051E /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		0D0C3C6720E60E7F00D4051E /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		0D0C3C6820E60E7F00D4051E /* PlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayViewController.xib; sourceTree = "<group>"; };
+		0D0C3C6B20E60E9C00D4051E /* PlayButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayButton.h; sourceTree = "<group>"; };
+		0D0C3C6C20E60E9C00D4051E /* PlayButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayButton.m; sourceTree = "<group>"; };
+		0D0C3C7420E9E82C00D4051E /* StringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringLayer.h; sourceTree = "<group>"; };
+		0D0C3C7520E9E82C00D4051E /* StringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringLayer.m; sourceTree = "<group>"; };
+		0D0C3C7620E9E82C00D4051E /* StringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringView.h; sourceTree = "<group>"; };
+		0D0C3C7720E9E82C00D4051E /* StringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringView.m; sourceTree = "<group>"; };
+		0D0C3C7A20E9E84A00D4051E /* StringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringViewController.h; sourceTree = "<group>"; };
+		0D0C3C7B20E9E84A00D4051E /* StringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringViewController.m; sourceTree = "<group>"; };
+		0D0C3C7C20E9E84A00D4051E /* StringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringViewController.xib; sourceTree = "<group>"; };
 		0D8C3A87201873AC002F8851 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8C3A8A201873AC002F8851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D8C3A8B201873AC002F8851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +72,10 @@
 		0D8C3AAA201873AC002F8851 /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8C3AAE201873AC002F8851 /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		0D8C3AB0201873AC002F8851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8C3ABC201873D0002F8851 /* MaskLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerViewController.h; sourceTree = "<group>"; };
+		0D8C3ABD201873D0002F8851 /* MaskLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerViewController.m; sourceTree = "<group>"; };
+		0D8C3ABF20187EC8002F8851 /* ColorsLoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsLoadingViewController.h; sourceTree = "<group>"; };
+		0D8C3AC020187EC8002F8851 /* ColorsLoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsLoadingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +103,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0C3C6520E60E5E00D4051E /* PlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C3C6620E60E7F00D4051E /* PlayViewController.h */,
+				0D0C3C6720E60E7F00D4051E /* PlayViewController.m */,
+				0D0C3C6820E60E7F00D4051E /* PlayViewController.xib */,
+				0D0C3C6B20E60E9C00D4051E /* PlayButton.h */,
+				0D0C3C6C20E60E9C00D4051E /* PlayButton.m */,
+			);
+			path = PlayButton;
+			sourceTree = "<group>";
+		};
+		0D0C3C7320E9E82C00D4051E /* StringLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C3C7420E9E82C00D4051E /* StringLayer.h */,
+				0D0C3C7520E9E82C00D4051E /* StringLayer.m */,
+				0D0C3C7620E9E82C00D4051E /* StringView.h */,
+				0D0C3C7720E9E82C00D4051E /* StringView.m */,
+				0D0C3C7A20E9E84A00D4051E /* StringViewController.h */,
+				0D0C3C7B20E9E84A00D4051E /* StringViewController.m */,
+				0D0C3C7C20E9E84A00D4051E /* StringViewController.xib */,
+			);
+			path = StringLayer;
+			sourceTree = "<group>";
+		};
 		0D8C3A7E201873AC002F8851 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +156,12 @@
 				0D8C3A8B201873AC002F8851 /* AppDelegate.m */,
 				0D8C3A8D201873AC002F8851 /* ViewController.h */,
 				0D8C3A8E201873AC002F8851 /* ViewController.m */,
+				0D8C3ABC201873D0002F8851 /* MaskLayerViewController.h */,
+				0D8C3ABD201873D0002F8851 /* MaskLayerViewController.m */,
+				0D8C3ABF20187EC8002F8851 /* ColorsLoadingViewController.h */,
+				0D8C3AC020187EC8002F8851 /* ColorsLoadingViewController.m */,
+				0D0C3C7320E9E82C00D4051E /* StringLayer */,
+				0D0C3C6520E60E5E00D4051E /* PlayButton */,
 				0D8C3A90201873AC002F8851 /* Main.storyboard */,
 				0D8C3A93201873AC002F8851 /* Assets.xcassets */,
 				0D8C3A95201873AC002F8851 /* LaunchScreen.storyboard */,
@@ -238,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0C3C6A20E60E7F00D4051E /* PlayViewController.xib in Resources */,
+				0D0C3C7E20E9E84A00D4051E /* StringViewController.xib in Resources */,
 				0D8C3A97201873AC002F8851 /* LaunchScreen.storyboard in Resources */,
 				0D8C3A94201873AC002F8851 /* Assets.xcassets in Resources */,
 				0D8C3A92201873AC002F8851 /* Main.storyboard in Resources */,
@@ -265,8 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8C3AC120187EC8002F8851 /* ColorsLoadingViewController.m in Sources */,
+				0D0C3C7D20E9E84A00D4051E /* StringViewController.m in Sources */,
+				0D8C3ABE201873D0002F8851 /* MaskLayerViewController.m in Sources */,
 				0D8C3A8F201873AC002F8851 /* ViewController.m in Sources */,
+				0D0C3C7920E9E82E00D4051E /* StringView.m in Sources */,
 				0D8C3A9A201873AC002F8851 /* main.m in Sources */,
+				0D0C3C7820E9E82E00D4051E /* StringLayer.m in Sources */,
+				0D0C3C6920E60E7F00D4051E /* PlayViewController.m in Sources */,
+				0D0C3C6D20E60E9C00D4051E /* PlayButton.m in Sources */,
 				0D8C3A8C201873AC002F8851 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
